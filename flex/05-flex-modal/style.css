@@ -15,11 +15,34 @@ body {
   justify-content: center;
 }
 
+
+#title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  padding: 0 10px 10px 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.continue, .cancel {
+  padding: 10px;
+  margin: 6px;
 }
 
 .icon {
